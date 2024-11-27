@@ -251,7 +251,12 @@ const sidebars: SidebarsConfig = {
             {
               type: 'category',
               label: 'VPCs',
+              link: {
+                type:'doc',
+                id: 'platform/concepts/vpcs',
+              },
               items: [
+                'platform/concepts/vpc-peering',
                 'platform/howto/manage-vpc-peering',
                 'platform/howto/public-access-in-vpc',
                 'platform/howto/vpc-peering-gcp',
